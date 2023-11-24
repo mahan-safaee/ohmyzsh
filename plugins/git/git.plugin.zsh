@@ -356,7 +356,7 @@ alias gunwip='git rev-list --max-count=1 --format="%s" HEAD | grep -q "\--wip--"
 alias grev='git revert'
 alias grm='git rm'
 alias grmc='git rm --cached'
-alias gcount='git shortlog --summary --numbered'
+alias gcount='git shortlog --summary --numbered --group="%al"'
 alias gsh='git show'
 alias gsps='git show --pretty=short --show-signature'
 alias gstall='git stash --all'
